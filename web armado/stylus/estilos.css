@@ -536,7 +536,7 @@ li.item a:hover{
 
 /*Detalle de producto con mucho texto y scroll*/
 .detalle_texto_big{
-  width: 230px;
+  width: 226px;
   height: 250px;
   float: left;
   border-right: 1px solid #B7D2C0;
@@ -564,4 +564,9 @@ li.item a:hover{
 }
 
 /*barra de accesos directos aside html5*/
-.accesos_directo{}
+.accesos_directo{
+  width: 203px;
+  height: 472px;
+  float: right;
+  padding: 16px 20px 0 22px;
+}
