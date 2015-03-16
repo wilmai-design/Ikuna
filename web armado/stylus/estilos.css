@@ -179,6 +179,7 @@ td,
 th {
   padding: 0;
 }
+
 body {
 background-image
 /*background-color #EBE9F7*/
@@ -186,4 +187,278 @@ background-image
   font-family: verdana, sans-serif;
   width: 1053px;
   margin: 17px auto 0px auto;
+}
+.header_a{
+  float: left;
+  background-image: url(../img/bg_header.jpg);
+  background-repeat: repeat-x;
+	/*background-image:url(../img/bg_header.jpg);*/
+  width: 100%;
+  height: 108px
+}
+.logo{
+  float: left;
+  margin: 0px;
+
+}
+
+/*ESTILOS BARRA DE BUSQUEDA*/
+
+.webdesigntuts-workshop {
+}
+
+.webdesigntuts-workshop:before,
+.webdesigntuts-workshop:after {
+  content: '';
+  display: block; 
+  height: 1px;
+  left: 50%;
+  margin: 0 0 0 -400px;
+  position: absolute;
+  width: 800px;
+}
+
+.webdesigntuts-workshop:before {
+  /*background: #444;
+  background: -webkit-linear-gradient(left, #151515, #444, #151515);
+  background: -moz-linear-gradient(left, #151515, #444, #151515);
+  background: -o-linear-gradient(left, #151515, #444, #151515);
+  background: -ms-linear-gradient(left, #151515, #444, #151515);
+  background: linear-gradient(left, #151515, #444, #151515);
+  top: 192px;*/
+}
+
+/*.webdesigntuts-workshop:after {
+  background: #000;
+  background: -webkit-linear-gradient(left, #151515, #000, #151515);  
+  background: -moz-linear-gradient(left, #151515, #000, #151515); 
+  background: -o-linear-gradient(left, #151515, #000, #151515); 
+  background: -ms-linear-gradient(left, #151515, #000, #151515);  
+  background: linear-gradient(left, #151515, #000, #151515);  
+  top: 191px;
+}*/
+
+.webdesigntuts-workshop form {
+  margin: 8px 0 0 12px;
+  float: left;
+ /* background: #111;
+  background: -webkit-linear-gradient(#1b1b1b, #111);
+  background: -moz-linear-gradient(#1b1b1b, #111);
+  background: -o-linear-gradient(#1b1b1b, #111);
+  background: -ms-linear-gradient(#1b1b1b, #111);
+  background: linear-gradient(#1b1b1b, #111);
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #272727;
+  display: inline-block;
+  font-size: 0px;
+  margin: 150px auto 0;
+  padding: 20px;
+  position: relative;
+  z-index: 1;*/
+}
+
+.webdesigntuts-workshop input {
+  background: #F6F6F6;
+  /*background: -webkit-linear-gradient(#333, #222);  
+  background: -moz-linear-gradient(#333, #222); 
+  background: -o-linear-gradient(#333, #222); 
+  background: -ms-linear-gradient(#333, #222);  
+  background: linear-gradient(#333, #222);  */
+  border: 1px solid #CCCCCC;
+  border-radius: 5px 0 0 5px;
+  /*box-shadow: 0 2px 0 #000;*/
+  color: #888;
+  display: block;
+  float: left;
+  font-family: verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: 35px;
+  margin: 0;
+  padding: 0 10px;
+  /*text-shadow: 0 -1px 0 #000;*/
+  width: 200px;
+}
+
+.ie .webdesigntuts-workshop input {
+  line-height: 40px;
+}
+
+.webdesigntuts-workshop input::-webkit-input-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop input:focus {
+  /*-webkit-animation: glow 800ms ease-out infinite alternate;
+  -moz-animation: glow 800ms ease-out infinite alternate;
+  -o-animation: glow 800ms ease-out infinite alternate;
+  -ms-animation: glow 800ms ease-out infinite alternate;
+  animation: glow 800ms ease-out infinite alternate;
+  background: #F6F6F6;
+  background: -webkit-linear-gradient(#333933, #F6F6F6);
+  background: -moz-linear-gradient(#333933, #F6F6F6);
+  background: -o-linear-gradient(#333933, #F6F6F6);
+  background: -ms-linear-gradient(#333933, #F6F6F6);
+  background: linear-gradient(#333933, #F6F6F6);
+  border-color: #393;
+  box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+  color: #000;
+  outline: none;
+}
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+  color: #000;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+  color: #000;
+}
+
+.webdesigntuts-workshop button {
+  background: #F6F6F6;
+  border: 1px solid #CCCCCC;
+  /*border-radius: 0 5px 5px 0;*/
+  color: #C2C2C1;
+  display: block;
+  float: left;
+  font-family: verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: 37px;
+  /*line-height: 40px;*/
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 80px;
+} 
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+  background: #F6F6F6;
+  color: #C2C2C1;
+  outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+  background: #F6F6F6;
+  background: -webkit-linear-gradient(#393939, #F6F6F6);
+  background: -moz-linear-gradient(#393939, #F6F6F6);
+  background: -o-linear-gradient(#393939, #F6F6F6);
+  background: -ms-linear-gradient(#393939, #F6F6F6);
+  background: linear-gradient(#393939, #F6F6F6);
+  box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+  top: 1px;
+}
+/*
+@-webkit-keyframes glow {
+    0% {
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    } 
+    100% {
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-moz-keyframes glow {
+    0% {
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    } 
+    100% {
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-o-keyframes glow {
+    0% {
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    } 
+    100% {
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-ms-keyframes glow {
+    0% {
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    } 
+    100% {
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@keyframes glow {
+    0% {
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    } 
+    100% {
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}*/
+
+.menu{
+  width: 85%;
+  float: left;
+  color: #3B393D;
+}
+
+.menu ul{
+  height: 57px;
+  margin: 9px 0px 0px 0px;
+  list-style: none;
+  padding: 0px 0px 0px 18px;
+}
+
+li.item{
+  float: left;
+  height: 10px;
+  margin: 9px 84px 0px 0;
+}
+
+li.item a{
+  color: #3B393D;
+  font-size: 20px;
+  font-family: verdana, sans-serif;
+  text-decoration: inherit;
+}
+
+li.item a:hover{
+  color: #6B938A;
+  font-size: 20px;
+  font-family: verdana, sans-serif;
+}
+
+/*contenedor_detalle_big (Contenedor detalle grande genreal)*/
+.contenedor_detalle_big{
+  float: left;
+  width: 100%;
+  height: 472px;
+}
+
+/*caja arriba artesano*/
+.artista_arriba{
+  width: 798px;
+  height: 114px;
+  float: left;
+  background-color: #fff;
+  background-image: url(../img/img_detalle_bg_caja.jpg);
+  background-repeat: no-repeat;
+}
+
+.imagen_autor{
+  float: left;
 }
