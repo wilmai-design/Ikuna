@@ -181,8 +181,7 @@ th {
 }
 
 body {
-background-image
-/*background-color #EBE9F7*/
+  background-color: #F8F8F8;
   font-size: 16px;
   font-family: verdana, sans-serif;
   width: 1053px;
@@ -429,7 +428,7 @@ li.item a:hover{
 
 /*Contenedor detalle del producto grande*/
 .contenedor_detalle_producto{
-  width: 798px;
+  width: 794px;
   height: 290px;
   float: left;
   margin: 0px;
@@ -569,4 +568,35 @@ li.item a:hover{
   height: 472px;
   float: right;
   padding: 16px 20px 0 22px;
+}
+/*sombra de cajas acssesos directos*/
+.sombra_caja{
+  margin:19px 12px;
+  padding: 0px;
+  float: left;
+}
+
+.caluga_mi_carro{
+  width: 203px;
+  height: 68px;
+  float: left;
+  background-color: #fff;
+}
+
+.titulo_carro{
+  float: left;
+  color: #CD1837;
+  font-size: 16px;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.detalle_carro{
+  float: left;
+  color: #929992;
+  font-size: 12px;
+  font-family: verdana, sans-serif;
+  font-weight: normal;
+  margin: 10px 0px 0px 0px;
 }
