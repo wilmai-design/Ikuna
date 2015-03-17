@@ -564,21 +564,27 @@ li.item a:hover{
 
 /*barra de accesos directos aside html5*/
 .accesos_directo{
-  width: 203px;
+  width: 227px;
   height: 472px;
   float: right;
-  padding: 16px 20px 0 22px;
+  padding: 0px;
 }
 /*sombra de cajas acssesos directos*/
 .sombra_caja{
-  margin:19px 12px;
+  margin:12px 29px;
+  padding: 0px;
+  float: left;
+}
+
+.sombra_caja_dos{
+  margin:-5px 29px;
   padding: 0px;
   float: left;
 }
 
 .caluga_mi_carro{
-  width: 203px;
-  height: 68px;
+  width: 228px;
+  height: 76px;
   float: left;
   background-color: #fff;
 }
@@ -589,7 +595,7 @@ li.item a:hover{
   font-size: 16px;
   font-family: verdana, sans-serif;
   font-weight: bold;
-  margin: 0px;
+  margin: 13px 0px 0px 16px;
 }
 
 .detalle_carro{
@@ -598,5 +604,74 @@ li.item a:hover{
   font-size: 12px;
   font-family: verdana, sans-serif;
   font-weight: normal;
-  margin: 10px 0px 0px 0px;
+  margin:11px 0px 0px 17px;
+}
+
+.caluga_tienda{
+  width: 228px;
+  height: 181px;
+  float: left;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.titulo_tienda{
+  float: left;
+  color: #CD1837;
+  font-size: 16px;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  margin: 13px 0px 0px 16px;
+}
+
+.caluga_tienda ul{  
+  /* clear: both; */
+  float: left;
+  height: 135px;
+  width: 205px;
+  margin: 0px;
+  list-style: none;
+  padding: 14px 0px 0px 17px;
+}
+
+li.item_tienda {
+  display: inline;
+  height: 11px;
+  margin: 0px;
+  padding: 0px;
+  /* width: 0; */
+}
+
+.caluga_categoria{
+  width: 228px;
+  height: 181px;
+  float: left;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.caluga_categoria ul{  
+  /* clear: both; */
+  float: left;
+  height: 135px;
+  width: 205px;
+  margin: 0px;
+  list-style: none;
+  padding: 14px 0px 0px 17px;
+}
+
+li.item_categoria figure{
+  display: inline;
+  height: 11px;
+  margin: 0px;
+  padding: 0px;
+  /* width: 0; */
+}
+
+li.item_categoria{
+  display: inline;
+  height: 11px;
+  margin: 0px;
+  padding: 0px;
+  /* width: 0; */
 }
